@@ -88,46 +88,81 @@ console.log(job);
 // var x;
 // console.log(typeof x);
 
-/*********************************
- * Operator precedence
+// /*********************************
+//  * Operator precedence
+//  * */
+//
+// var now = 2018;
+// var yearJohn = 1989;
+// var fullAge = 18;
+//
+// // Multiple operators
+// var isFullAge = now - yearJohn >= fullAge;// true
+// console.log(isFullAge);
+//
+// // Grouping
+// var ageJohn = now - yearJohn;
+// var ageMark = 35;
+// var average = (ageJohn + ageMark) / 2;
+// console.log(average);
+//
+// // Multiple assignments
+// var x, y;
+// x = y = (3 + 5) * 4 - 6; //8 * 4 - 6 // 32 - 6// 26
+// console.log(x, y);
+//
+// // more operators
+// // x = x * 2;
+// x *= 2;
+// console.log(x);
+// x += 10;
+// console.log(x);
+// x++;
+// console.log(x);
+// x--;
+// console.log(x);
+
+
+/******************
+ * Coding Challenge 1
  * */
 
-var now = 2018;
-var yearJohn = 1989;
-var fullAge = 18;
+markHeight = 1.98;
+markMass = 95;
 
-// Multiple operators
-var isFullAge = now - yearJohn >= fullAge;// true
-console.log(isFullAge);
+johnHeight = 1.69;
+johnMass = 78;
 
-// Grouping
-var ageJohn = now - yearJohn;
-var ageMark = 35;
-var average = (ageJohn + ageMark) / 2;
-console.log(average);
+mark = markHeight, markMass;
 
-// Multiple assignments
-var x, y;
-x = y = (3 + 5) * 4 - 6; //8 * 4 - 6 // 32 - 6// 26
-console.log(x, y);
-
-// more operators
-// x = x * 2;
-x *= 2;
-console.log(x);
-x += 10;
-console.log(x);
-x++;
-console.log(x);
-x--;
-console.log(x);
+john = johnHeight, johnMass;
 
 
 
 
+johnBMI = johnMass / (johnHeight * johnHeight);
+markBMI = markMass / (markHeight * markHeight);
+
+markHigherBMI = (markBMI > johnBMI);
+console.log(markHigherBMI);
+
+console.log("Is Mark's BMI higher than John's?" + ' ' + markHigherBMI);
 
 
 
+// solution
+
+var massMark = 78; // kg
+var heightMark = 1.69; // meters
+
+var massJohn = 92;
+var heightJohn = 1.95;
+
+var BMIMark = massMark/ (heightMark * heightMark);
+var BMIJohn = massJohn/ (heightJohn * heightJohn);
+
+var markHigherBMI = BMIMark > BMIJohn;
+console.log('Is Mark\'s BMI higher than John\'s? ' + markHigherBMI);
 
 
 
