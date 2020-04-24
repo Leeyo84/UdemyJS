@@ -1,8 +1,6 @@
 /******************
 * Variables and Data types
 
-
-
 console.log("Hello World!!!");
 console.log("do it");
 
@@ -137,10 +135,7 @@ console.log(job);
 // mark = markHeight, markMass;
 //
 // john = johnHeight, johnMass;
-//
-//
-//
-//
+
 // johnBMI = johnMass / (johnHeight * johnHeight);
 // markBMI = markMass / (markHeight * markHeight);
 //
@@ -166,42 +161,65 @@ console.log(job);
  * If / else statements
  */
 
-var firstName = 'John';
-var civilStatus = 'single';
+// var firstName = 'John';
+// var civilStatus = 'single';
+//
+// if (civilStatus === 'married') {
+//     console.log(firstName + ' is married!');
+// } else {
+//     console.log(firstName + ' will hopefully marry soon :)');
+// }
+//
+// var isMarried = true;
+// if (isMarried) {
+//     console.log(firstName + ' is married!');
+// } else {
+//     console.log(firstName + ' will hopefully marry soon :)');
+// }
+//
+// var massMark = 78; // kg
+// var heightMark = 1.69; // meters
+//
+// var massJohn = 92;
+// var heightJohn = 1.95;
+//
+// var BMIMark = massMark/ (heightMark * heightMark);
+// var BMIJohn = massJohn/ (heightJohn * heightJohn);
+//
+// // var markHigherBMI = BMIMark > BMIJohn;
+// // console.log('Is Mark\'s BMI higher than John\'s? ' + markHigherBMI);
+//
+// if (BMIMark > BMIJohn) {
+//     console.log('Mark\'s BMI is higher than John\'s.');
+// } else {
+//     console.log('John\'s BMI is higher than Mark\'s.');
+// }
+//
+/***********************************
+ * Boolean logic
+ * */
 
-if (civilStatus === 'married') {
-    console.log(firstName + ' is married!');
+var firstName ='John';
+var age = 16;
+
+if (age < 13) {
+    console.log(firstName + ' is a boy.');
+} else if () { // Between 13 and 20 = age >= 13 AND age < 20
+    console.log(firstName + ' is a teenager.');
 } else {
-    console.log(firstName + ' will hopefully marry soon :)');
+    console.log(firstName + ' is a man.');
 }
 
-var isMarried = true;
-if (isMarried) {
-    console.log(firstName + ' is married!');
-} else {
-    console.log(firstName + ' will hopefully marry soon :)');
-}
 
 
 
 
-var massMark = 78; // kg
-var heightMark = 1.69; // meters
 
-var massJohn = 92;
-var heightJohn = 1.95;
 
-var BMIMark = massMark/ (heightMark * heightMark);
-var BMIJohn = massJohn/ (heightJohn * heightJohn);
 
-// var markHigherBMI = BMIMark > BMIJohn;
-// console.log('Is Mark\'s BMI higher than John\'s? ' + markHigherBMI);
 
-if (BMIMark > BMIJohn) {
-    console.log('Mark\'s BMI is higher than John\'s.');
-} else {
-    console.log('John\'s BMI is higher than Mark\'s.');
-}
+
+
 
 
 
